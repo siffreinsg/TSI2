@@ -1,0 +1,15 @@
+{
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=missing-function-docstring",
+        "--disable=invalid-name",
+        "--disable=pointless-string-statement"
+    ],
+    "python.autoComplete.extraPaths": [
+        "./TD01",
+        "./TD02",
+        "./*"
+    ]
+}
